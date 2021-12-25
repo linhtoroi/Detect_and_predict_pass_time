@@ -2,7 +2,8 @@
 
 Bài toán dự báo thời gian tắc đường (thời gian đi hết 1 quãng đường trong tương lai 10s, 20s, 30s, ... 100s)
 
-Bài toán áp dụng 2 khối, đầu tiên là mô hình YOLO đã được huấn luyện
+Bài toán áp dụng 2 khối, đầu tiên là mô hình YOLO đã được huấn luyện để trích xuất dữ liệu (số lượng xe, nhãn - thời gian xe đi hết quãng đường), khối thứ hai là mô hình dự đoán thời gian đi hết quãng đường bao gồm 1 tầng LSTM và 1 tầng Linear.
+
  
 ### +) Sau khi clone code, tải yolov3.weights đã được huấn luyện
 
@@ -17,7 +18,7 @@ Video được quay trong 2 thời điểm là 9h00 sáng và 3h00 chiều trong
 https://drive.google.com/drive/folders/1ztWXbkfKqvNTu5cC7VP9OCqm_-2ZKCnF?fbclid=IwAR1rjzhGd61u3iVDf5i91CdCYN7MtmiQC49LbL4IGk0rIUNUI8LGADZZZ8I
 
 
-Chạy trong file experiment.py
+### Chạy trong file experiment.py
 
 ### +) Khởi tạo
 
