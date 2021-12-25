@@ -17,6 +17,8 @@ Video được quay trong 2 thời điểm là 9h00 sáng và 3h00 chiều trong
 https://drive.google.com/drive/folders/1ztWXbkfKqvNTu5cC7VP9OCqm_-2ZKCnF?fbclid=IwAR1rjzhGd61u3iVDf5i91CdCYN7MtmiQC49LbL4IGk0rIUNUI8LGADZZZ8I
 
 
+Chạy trong file experiment.py
+
 ### +) Khởi tạo
 
 lfr = LFramework(input_size=số lượng frame 1 lần forward model, hidden_size= của LSTM và đầu vào mạng Linear, output=10 (số lượng muốn dự đoán - đơn vị 10s (10s,20s,30s,... sau))
